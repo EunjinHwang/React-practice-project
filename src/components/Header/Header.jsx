@@ -1,13 +1,12 @@
-import logoImage from '../assets/investment-calculator-logo.png'
+import logoImage from '../../assets/investment-calculator-logo.png'
 
-function Header(){
+function Header() {
     return (
-    <div id="header">
-        <header>
+        <header id="header">
             <img src={logoImage} alt="logoImage" />
             <h1>React Investment Calculator</h1>
         </header>
-    </div>
-    )}
+    )
+}
 
 export default Header;
